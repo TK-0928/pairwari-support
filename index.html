@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ペアわり サポート / プライバシーポリシー</title>
+<style>
+  :root {
+    --teal: #2FA48E;
+    --teal-deep: #12564A;
+    --coral: #E8756B;
+    --bg: #FAFAFA;
+    --surface: #FFFFFF;
+    --text: #1C1C1E;
+    --sub: #6E7275;
+    --border: #E5E5EA;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.8;
+    -webkit-text-size-adjust: 100%;
+  }
+  header {
+    background: var(--teal-deep);
+    color: #fff;
+    padding: 28px 20px;
+    text-align: center;
+  }
+  header h1 { margin: 0; font-size: 1.35rem; letter-spacing: .02em; }
+  header p { margin: 6px 0 0; opacity: .85; font-size: .9rem; }
+  .mark { display: flex; justify-content: center; align-items: center; margin-bottom: 12px; }
+  .mark span { width: 34px; height: 34px; border-radius: 50%; display: block; }
+  .mark .a { background: var(--teal); }
+  .mark .b { background: var(--coral); margin-left: -12px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 20px 64px; }
+  .lang-switch {
+    display: flex; gap: 8px; justify-content: center;
+    margin: 20px 0 8px;
+  }
+  .lang-switch button {
+    border: 1px solid var(--teal-deep);
+    background: transparent;
+    color: var(--teal-deep);
+    padding: 8px 22px;
+    border-radius: 999px;
+    font-size: .9rem;
+    cursor: pointer;
+    min-height: 40px;
+  }
+  .lang-switch button.active { background: var(--teal-deep); color: #fff; }
+  section.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px 22px;
+    margin: 18px 0;
+  }
+  h2 {
+    font-size: 1.1rem; color: var(--teal-deep);
+    border-left: 4px solid var(--coral);
+    padding-left: 12px; margin: 0 0 12px;
+  }
+  h3 { font-size: 1rem; margin: 18px 0 6px; }
+  p, li { font-size: .95rem; color: var(--text); }
+  ul { padding-left: 1.2em; }
+  a { color: var(--teal-deep); }
+  .muted { color: var(--sub); font-size: .85rem; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: .9rem; }
+  th, td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #F1F3F5; }
+  .contact a { font-weight: 600; }
+  footer { text-align: center; color: var(--sub); font-size: .8rem; padding: 24px 20px 40px; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<header>
+  <div class="mark"><span class="a"></span><span class="b"></span></div>
+  <h1>ペアわり</h1>
+  <p>Pairwari — Support &amp; Privacy Policy</p>
+</header>
+
+<div class="wrap">
+  <div class="lang-switch">
+    <button id="btn-ja" class="active" onclick="setLang('ja')">日本語</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- ============ 日本語 ============ -->
+  <div id="lang-ja">
+    <section class="card">
+      <h2>このアプリについて</h2>
+      <p>「ペアわり」は、同棲カップルや夫婦のための割り勘・共有家計簿アプリです。家賃・食費といった費目ごとに「どちらが何％出すか」を先に決めておけば、あとは金額と費目を選ぶだけで、ふたりそれぞれの負担額が自動で計算されます。月末には「どちらがいくら渡せばよいか」が1つの金額にまとまります。</p>
+      <p class="muted">※ 本アプリの中で送金は行われません。金額を確認したあと、現金やその他の送金手段でご自身で受け渡しをしていただく形になります。銀行口座やクレジットカードとの連携はありません。</p>
+    </section>
+
+    <section class="card">
+      <h2>サポート・お問い合わせ</h2>
+      <p>ご不明な点・ご要望・不具合のご報告は、下記メールアドレスまでお気軽にご連絡ください。数日以内に返信いたします。</p>
+      <p class="contact">📧 <a href="mailto:toki19990802@gmail.com">toki19990802@gmail.com</a></p>
+
+      <h3>よくあるご質問</h3>
+      <ul>
+        <li><strong>ふたりで使うにはどうすればいいですか？</strong><br>アプリの「設定」→「ふたりのこと」から招待リンクを送り、相手の方がそのリンクを開くとつながります。以降はどちらが記録しても、同じ内容がふたりの端末に表示されます。</li>
+        <li><strong>ひとりでも使えますか？</strong><br>はい。相手を招待しなくても、すべての機能をお使いいただけます。あとから招待した場合、それまでの記録も引き継げます。</li>
+        <li><strong>「精算する」を押すとお金が動きますか？</strong><br>いいえ。アプリの中でお金が動くことはありません。金額を確認して実際に受け渡しをしたあと、「渡しました」と記録するためのボタンです。</li>
+        <li><strong>負担の割合はあとから変えられますか？</strong><br>はい。「設定」→「費目と負担割合」からいつでも変更できます。引っ越しや収入の変化があったときは「分担をまとめて見直す」もご利用ください。</li>
+        <li><strong>機種変更をしたらデータは残りますか？</strong><br>ふたりでお使いの場合は、パートナーの方から改めて招待リンクを送ってもらうことで、これまでの記録に戻れます。おひとりでお使いの場合、記録は端末内に保存されているため、アプリを削除すると失われます。</li>
+        <li><strong>記録を消したい／使うのをやめたい</strong><br>アプリを削除すると、端末内に保存された記録は削除されます。クラウド上に保存された記録の削除をご希望の場合は、上記のメールアドレスまでご連絡ください。速やかに削除いたします。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>プライバシーポリシー</h2>
+      <p class="muted">最終更新日：2026年7月27日</p>
+      <p>本アプリ「ペアわり」（以下「本アプリ」）における、利用者の情報の取り扱いについて説明します。開発者は利用者のプライバシーを尊重し、以下のとおり適切に取り扱います。</p>
+
+      <h3>1. 取得する情報と利用目的</h3>
+      <table>
+        <tr><th>情報</th><th>目的</th></tr>
+        <tr><td>あなたがアプリに入力した内容（支出の金額・日付・費目・メモ、費目ごとの負担割合、ふたりの呼び名、固定費、精算の記録）</td><td>アプリの中核機能（記録・負担額の計算・精算・グラフ表示）の提供</td></tr>
+        <tr><td>利用者を識別するID（Firebase の匿名認証が自動的に発行する文字列）</td><td>ふたりの端末で同じ記録を共有し、他の方から読み書きされないように保護するため</td></tr>
+        <tr><td>ペアの招待コード</td><td>パートナーの方とデータを共有するため（発行から7日で無効になります）</td></tr>
+        <tr><td>広告に関する識別子（広告配信サービスが取得）</td><td>アプリ内の広告の表示・不正防止のため</td></tr>
+      </table>
+      <p><strong>メールアドレス・氏名・電話番号・住所・生年月日などの個人を特定する情報は取得しません。</strong>アカウント登録やログインの操作は不要で、上記のIDは端末内で自動的に発行されます。また、位置情報・連絡先・写真・カメラ・銀行口座・クレジットカード等の支払い情報も取得しません。</p>
+
+      <h3>2. 情報の保存場所</h3>
+      <p>入力された記録は、お使いの端末内に保存されるほか、パートナーの方と共有するために Google 社の「Firebase（Cloud Firestore）」に保存されます。通信は暗号化されており、あなたのデータは、あなたとパートナーの方の端末からのみ読み書きできるようにセキュリティルールで保護されています。ペアのIDを知っているだけでは、第三者が内容を読むことはできません。</p>
+
+      <h3>3. 広告について</h3>
+      <p>本アプリは Google 社の広告配信サービス「Google AdMob」を利用しています。本アプリは<strong>パーソナライズされていない広告（非パーソナライズ広告）のみ</strong>をリクエストする設定にしており、アプリをまたいだ行動追跡（トラッキング）は行いません。AdMob は広告の表示・頻度調整・不正防止のために端末の識別子等を取得することがあります。詳細は Google のプライバシーポリシーをご確認ください。</p>
+      <ul>
+        <li>Google プライバシーポリシー：<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+        <li>Google 広告における情報の使用：<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+      </ul>
+
+      <h3>4. 第三者への提供</h3>
+      <p>取得した情報を、上記のサービス提供（Firebase・AdMob）に必要な範囲を超えて第三者に販売・提供することはありません。法令に基づく開示要請があった場合を除きます。</p>
+
+      <h3>5. 情報の保管期間と削除</h3>
+      <p>入力された記録は、削除のご依頼をいただくまで保管されます。アプリを削除すると、端末内に保存された記録は削除されます。クラウド上に保存された記録の削除をご希望の場合は、本ページ記載のメールアドレスまでご連絡ください。速やかに削除いたします。なお、ペアでご利用の場合、記録はおふたりで共有されているため、削除はおふたりぶんに及ぶことをご了承ください。</p>
+
+      <h3>6. お子様のプライバシー</h3>
+      <p>本アプリは、同居しているカップル・ご夫婦の家計管理を目的としており、13歳未満の方の利用を想定していません。</p>
+
+      <h3>7. プライバシーポリシーの変更</h3>
+      <p>本ポリシーは、必要に応じて改定されることがあります。重要な変更がある場合は、本ページ上で告知します。</p>
+
+      <h3>8. お問い合わせ</h3>
+      <p class="contact">本ポリシーに関するお問い合わせ：<a href="mailto:toki19990802@gmail.com">toki19990802@gmail.com</a></p>
+    </section>
+  </div>
+
+  <!-- ============ English ============ -->
+  <div id="lang-en" class="hidden">
+    <section class="card">
+      <h2>About this app</h2>
+      <p>"Pairwari" (ペアわり) is a shared expense-splitting and household budgeting app for couples living together. Decide once what percentage each person covers for each category — rent, groceries, and so on — and from then on you only enter the amount and the category. The app works out what each of you owes, and at the end of the month it reduces everything to a single figure: who pays whom, and how much.</p>
+      <p class="muted">Note: No money moves inside this app. After checking the amount, you settle up yourselves using cash or any payment method you like. The app does not connect to bank accounts or credit cards.</p>
+    </section>
+
+    <section class="card">
+      <h2>Support &amp; Contact</h2>
+      <p>For questions, requests, or bug reports, please contact us at the email below. We aim to reply within a few days.</p>
+      <p class="contact">📧 <a href="mailto:toki19990802@gmail.com">toki19990802@gmail.com</a></p>
+
+      <h3>Frequently asked questions</h3>
+      <ul>
+        <li><strong>How do we use it together?</strong><br>Go to "Settings" → "About the two of you" in the app and send an invitation link. Once your partner opens it, you are connected, and anything either of you records appears on both devices.</li>
+        <li><strong>Can I use it alone?</strong><br>Yes. Every feature works without inviting a partner, and if you invite one later, your existing records come with you.</li>
+        <li><strong>Does tapping "settle up" move money?</strong><br>No. No money moves inside the app. The button is there to record that you have already handed the money over.</li>
+        <li><strong>Can I change the split percentages later?</strong><br>Yes, at any time, from "Settings" → "Categories and split".</li>
+        <li><strong>Will my data survive if I change my phone?</strong><br>If you use the app as a pair, ask your partner to send a fresh invitation link to restore your records. If you use it alone, records are stored on your device and are lost when the app is deleted.</li>
+        <li><strong>I want my data deleted.</strong><br>Deleting the app removes the records stored on your device. To have records stored in the cloud deleted, email us at the address above and we will remove them promptly.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Privacy Policy</h2>
+      <p class="muted">Last updated: July 27, 2026</p>
+      <p>This policy explains how "Pairwari" (the "App") handles your information. We respect your privacy and handle your information as described below.</p>
+
+      <h3>1. Information we collect and why</h3>
+      <table>
+        <tr><th>Information</th><th>Purpose</th></tr>
+        <tr><td>Content you enter (expense amounts, dates, categories, notes, split percentages, the names you choose for each other, recurring costs, settlement records)</td><td>To provide the core features (recording, calculating each person's share, settling up, charts)</td></tr>
+        <tr><td>An identifier issued automatically by Firebase Anonymous Authentication</td><td>To share the same records across both devices and prevent anyone else from reading or writing them</td></tr>
+        <tr><td>Pair invitation codes</td><td>To connect you with your partner (codes expire after 7 days)</td></tr>
+        <tr><td>Advertising identifiers (collected by the ad service)</td><td>To display ads and prevent fraud</td></tr>
+      </table>
+      <p><strong>We do not collect personally identifying information such as your email address, name, phone number, postal address, or date of birth.</strong> No sign-up or sign-in is required; the identifier above is generated automatically on your device. We also do not collect location, contacts, photos, camera, bank account, or credit card information.</p>
+
+      <h3>2. Where your data is stored</h3>
+      <p>Your records are stored on your device and, so that they can be shared with your partner, in Google's "Firebase (Cloud Firestore)". Communication is encrypted, and security rules ensure the data can be read or written only from your device and your partner's. Knowing a pair's ID alone does not allow a third party to read its contents.</p>
+
+      <h3>3. Advertising</h3>
+      <p>The App uses Google's "Google AdMob" advertising service. The App requests <strong>non-personalized ads only</strong> and does not perform cross-app tracking. AdMob may collect device identifiers to serve ads, cap frequency, and prevent fraud. See Google's privacy policy for details.</p>
+      <ul>
+        <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+        <li>How Google uses information: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+      </ul>
+
+      <h3>4. Sharing with third parties</h3>
+      <p>We do not sell or share your information with third parties beyond what is necessary to provide the services above (Firebase, AdMob), except when required by law.</p>
+
+      <h3>5. Retention and deletion</h3>
+      <p>Records are kept until you ask us to delete them. Deleting the app removes the records stored on your device. To have records stored in the cloud deleted, contact the email address on this page and we will remove them promptly. Please note that records are shared between both members of a pair, so deletion affects both.</p>
+
+      <h3>6. Children's privacy</h3>
+      <p>The App is intended for couples managing a shared household and is not directed to children under 13.</p>
+
+      <h3>7. Changes to this policy</h3>
+      <p>This policy may be updated as needed. Significant changes will be announced on this page.</p>
+
+      <h3>8. Contact</h3>
+      <p class="contact">Questions about this policy: <a href="mailto:toki19990802@gmail.com">toki19990802@gmail.com</a></p>
+    </section>
+  </div>
+
+  <footer>
+    © 2026 Tokiharu Kitaoka. All rights reserved.
+  </footer>
+</div>
+
+<script>
+  function setLang(lang) {
+    var ja = document.getElementById('lang-ja');
+    var en = document.getElementById('lang-en');
+    var bja = document.getElementById('btn-ja');
+    var ben = document.getElementById('btn-en');
+    if (lang === 'en') {
+      ja.classList.add('hidden'); en.classList.remove('hidden');
+      ben.classList.add('active'); bja.classList.remove('active');
+      document.documentElement.lang = 'en';
+    } else {
+      en.classList.add('hidden'); ja.classList.remove('hidden');
+      bja.classList.add('active'); ben.classList.remove('active');
+      document.documentElement.lang = 'ja';
+    }
+  }
+  // ブラウザ言語が英語なら英語で初期表示
+  if ((navigator.language || '').toLowerCase().indexOf('ja') !== 0) {
+    setLang('en');
+  }
+</script>
+</body>
+</html>
